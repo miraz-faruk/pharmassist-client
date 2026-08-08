@@ -1,3 +1,4 @@
+import HeroBanner from "~/components/home/HeroBanner";
 import type { Route } from "./+types/home";
 
 export function meta({ }: Route.MetaArgs) {
@@ -10,7 +11,7 @@ export function meta({ }: Route.MetaArgs) {
 export default function Home() {
   return (
     <div>
-      <h1>Hi</h1>
+      <HeroBanner></HeroBanner>
     </div>
   );
 }
