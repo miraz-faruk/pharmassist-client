@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import '@smastrom/react-rating/style.css';
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
